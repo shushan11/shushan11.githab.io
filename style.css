@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left, .right {
+  width: 30%;
+  min-height: 100vh;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.text2 {
+  margin-top: 18px;
+}
+
+.box3 {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.blue {
+  color: blue;
+}
+
+.box {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.flag {
+  width: 50px;
+  border: 1px black solid;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .body {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left, .right {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
